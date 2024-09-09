@@ -2,6 +2,6 @@ import React from "react";
 
 React;
 const Banner = () => {
-  return <div>Banner</div>;
+  return <div className="w-full">Banner</div>;
 };
 export default Banner;

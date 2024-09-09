@@ -4,10 +4,9 @@ import Banner from "./components/Banner";
 
 function App() {
   return (
-    <div>
+    <div className="min-h-screen w-full">
       <Navbar />
       <Banner />
-      <h1>Hello</h1>
     </div>
   );
 }
