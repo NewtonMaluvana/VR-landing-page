@@ -3,6 +3,7 @@ import { Navbar } from "./components/Navbar";
 import Banner from "./components/Banner";
 import { Features } from "./components/Features";
 import { Booking } from "./components/Booking";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <Features />
       <Booking />
+      <Footer />
     </div>
   );
 }

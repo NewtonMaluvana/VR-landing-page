@@ -10,15 +10,15 @@ export const Booking = () => {
     { id: 3, img: "/image/Y.png", title: "Standard Verion" },
   ];
   return (
-    <div className="w-full bg-violet-600 flex flex-col py-10">
+    <div id="Book" className="w-full bg-violet-600 flex flex-col py-24">
       <div className=" text-center capitalize   text-4xl font-medium text-white grid place-items-center">
         All in one place
       </div>
-      <div className="flex md:flex-row flex-col flex-wrap mt-10 gap-8 justify-center items-center">
+      <div className="flex md:flex-row flex-col flex-wrap mt-48 mb-10 gap-8 justify-center items-center">
         {vr.map((e) => (
           <div
             key={e.id}
-            className="md:w-1/4 w-[90%] bg-white h-[300px] p-8 hover:scale-110 duration-1000  rounded-md"
+            className="md:w-[30%] w-[90%] bg-white h-[350px] p-8 hover:scale-110 duration-1000  rounded-md"
           >
             <img
               width={280}
@@ -33,7 +33,7 @@ export const Booking = () => {
           </div>
         ))}
       </div>
-      <div className="grid place-items-center mt-10">
+      <div className="grid place-items-center mb-28">
         <button className="btn  bg-white text-red-600 min-w-[200px] hover:scale-125 duration-1000">
           Book Now <CgCross />{" "}
         </button>
